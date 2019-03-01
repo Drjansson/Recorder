@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Recorder</string>
     <string name="action_settings">Settings</string>
+
+
+    //Buttons
+    <string name="btnScreenCapture">Screen Capture</string>
+    <string name="btnRecord">Record</string>
+    <string name="btnStopRecord">Stop</string>
 </resources>
