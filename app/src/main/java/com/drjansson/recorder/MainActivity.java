@@ -8,8 +8,13 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
+
+    Button btnScreenCapture;
+    Button btnRecord;
+    Button btnStopRecord;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +31,11 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
+        btnScreenCapture = findViewById(R.id.btnScreenCapture);
+        btnRecord = findViewById(R.id.btnRecord);
+        btnStopRecord = findViewById(R.id.btnStopRecord);
+
     }
 
     @Override
