@@ -19,6 +19,7 @@
         android:layout_height="wrap_content"
 
         android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
         android:text="@string/btnScreenCapture" />
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -29,14 +30,14 @@
         android:orientation="horizontal"
         android:paddingTop="50dp">
 
-        <Button
+        <ToggleButton
             android:id="@+id/btnRecord"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
             android:text="@string/btnRecord" />
 
-        <Button
+        <ToggleButton
             android:id="@+id/btnStopRecord"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -45,6 +46,13 @@
 
     </LinearLayout>
 
+    <Button
+        android:id="@+id/btnCreateWidget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Create Widget" />
 
 
 
