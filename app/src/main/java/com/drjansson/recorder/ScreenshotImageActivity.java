@@ -29,9 +29,9 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 
-public class ScreenCaptureImageActivity extends Activity {
+public class ScreenshotImageActivity extends Activity {
 
-    private static final String TAG = ScreenCaptureImageActivity.class.getName();
+    private static final String TAG = ScreenshotImageActivity.class.getName();
     private static final int REQUEST_CODE = 100;
     private static String STORE_DIRECTORY;
     private static int IMAGES_PRODUCED;
